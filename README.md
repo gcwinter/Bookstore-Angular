@@ -1,6 +1,8 @@
-# EComerce
+# Rank of Films
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+
+Projeto desenvolvido consumindo a AP do The Movie DATABASE : https://developers.themoviedb.org/3/getting-started/introduction
 
 ## Development server
 
