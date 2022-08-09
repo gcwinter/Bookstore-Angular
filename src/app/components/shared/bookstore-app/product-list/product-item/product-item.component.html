@@ -1,0 +1,17 @@
+<div class="card shadow -5m">
+
+    <img class="bd-plasceholder-img card-im-top" width="100%" src='{{"https://image.tmdb.org/t/p/original/" + filme.poster_path}}'>
+    <div class="card-body">
+
+        <p class="card-text">Título: {{filme.title}}</p>
+        <p class="card-text">Resumo: {{filme.overview}}</p>
+        <p class="card-text">Data de lançamento: {{filme.release_date}}</p>
+        <p class="card-text">Nota média: {{filme.vote_average}}</p>
+        <p class="card-text">Número de votos: {{filme.vote_count}}</p>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-primary">trailer</button>
+            <button type="button" class="btn btn-sm btn-primary">assitir</button>
+        </div>
+    </div>
+</div>
